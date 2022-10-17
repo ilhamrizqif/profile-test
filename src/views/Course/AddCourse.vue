@@ -25,6 +25,7 @@
                   <input
                     disabled
                     class="
+                      bg-themeColor-white
                       col-span-3
                       w-full
                       rounded-l-lg
@@ -420,6 +421,7 @@
 
 <script>
 import Multiselect from "@vueform/multiselect";
+import Breadcrumb from "../../components/Breadcrumbs.vue";
 
 export default {
   components: { Multiselect },

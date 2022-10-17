@@ -32,8 +32,8 @@
       </div>
       <ul class="space-y-2">
         <li>
-          <a
-            href="#"
+          <router-link
+            to="/"
             class="
               flex
               items-center
@@ -109,7 +109,7 @@
                 <rect width="24" height="24" fill="#1F2855" />
               </g>
             </svg>
-          </a>
+          </router-link>
         </li>
 
         <div class="uppercase text-xs text-cb-40 ml-2">Clone management</div>
@@ -185,7 +185,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -240,7 +239,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -293,7 +291,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -329,7 +326,7 @@
                       <rect width="14" height="14" fill="#457B9D" />
                     </g>
                   </svg>
-                  <p class="flex-1 ml-3 text-left whitespace-nowrap">Vudeo</p>
+                  <p class="flex-1 ml-3 text-left whitespace-nowrap">Video</p>
                 </button>
               </li>
               <li>
@@ -346,7 +343,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -399,7 +395,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -452,7 +447,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -494,7 +488,7 @@
                 </button>
               </li>
               <li>
-                <a
+                <router-link
                   class="
                     flex
                     items-center
@@ -508,7 +502,7 @@
                     group
                     hover:bg-rc-100
                   "
-                  href="/add-course"
+                  to="/course/add-course"
                 >
                   <svg
                     width="14"
@@ -544,7 +538,7 @@
                     </g>
                   </svg>
                   <p class="flex-1 ml-3 text-left whitespace-nowrap">Course</p>
-                </a>
+                </router-link>
               </li>
               <li>
                 <button
@@ -560,7 +554,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -615,7 +608,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -668,7 +660,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -721,7 +712,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg
@@ -776,7 +766,6 @@
                     duration-75
                     group
                     hover:bg-rc-100
-                    focus:bg-rc focus:text-themeColor-white
                   "
                 >
                   <svg

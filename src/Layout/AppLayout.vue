@@ -12,7 +12,7 @@ import Breadcrumb from "../components/Breadcrumbs.vue";
     <div class="w-full">
       <NavbarComponent />
       <Breadcrumb />
-      <AddCourse class="flex-col" />
+      <router-view></router-view>
     </div>
   </div>
 </template>
