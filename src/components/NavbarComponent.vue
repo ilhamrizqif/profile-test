@@ -26,40 +26,60 @@
       "
     >
       <div class="flex">
-        <svg
-          width="25"
-          height="25"
-          viewBox="0 0 25 25"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M17.9168 16.4583L22.6043 21.1458C23.021 21.5625 23.021 22.1875 22.6043 22.6041C22.396 22.8125 22.0835 22.9166 21.8752 22.9166C21.6668 22.9166 21.3543 22.8125 21.146 22.6041L16.4585 17.9166C14.896 19.0625 13.021 19.7916 10.9377 19.7916C6.04183 19.7916 2.0835 15.8333 2.0835 10.9375C2.0835 6.04165 6.04183 2.08331 10.9377 2.08331C15.8335 2.08331 19.7918 6.04165 19.7918 10.9375C19.7918 13.0208 19.0627 15 17.9168 16.4583ZM10.9377 4.16665C7.18766 4.16665 4.16683 7.18748 4.16683 10.9375C4.16683 14.6875 7.18766 17.7083 10.9377 17.7083C12.8127 17.7083 14.4793 16.9791 15.7293 15.7291C16.9793 14.4791 17.7085 12.8125 17.7085 10.9375C17.7085 7.18748 14.6877 4.16665 10.9377 4.16665Z"
-            fill="black"
+        <label class="relative block">
+          <span class="sr-only">Search</span>
+          <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17.9168 16.4583L22.6043 21.1458C23.021 21.5625 23.021 22.1875 22.6043 22.6041C22.396 22.8125 22.0835 22.9166 21.8752 22.9166C21.6668 22.9166 21.3543 22.8125 21.146 22.6041L16.4585 17.9166C14.896 19.0625 13.021 19.7916 10.9377 19.7916C6.04183 19.7916 2.0835 15.8333 2.0835 10.9375C2.0835 6.04165 6.04183 2.08331 10.9377 2.08331C15.8335 2.08331 19.7918 6.04165 19.7918 10.9375C19.7918 13.0208 19.0627 15 17.9168 16.4583ZM10.9377 4.16665C7.18766 4.16665 4.16683 7.18748 4.16683 10.9375C4.16683 14.6875 7.18766 17.7083 10.9377 17.7083C12.8127 17.7083 14.4793 16.9791 15.7293 15.7291C16.9793 14.4791 17.7085 12.8125 17.7085 10.9375C17.7085 7.18748 14.6877 4.16665 10.9377 4.16665Z"
+                fill="black"
+              />
+              <mask
+                id="mask0_794_3323"
+                style="mask-type: alpha"
+                maskUnits="userSpaceOnUse"
+                x="2"
+                y="2"
+                width="21"
+                height="21"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.9168 16.4583L22.6043 21.1458C23.021 21.5625 23.021 22.1875 22.6043 22.6041C22.396 22.8125 22.0835 22.9166 21.8752 22.9166C21.6668 22.9166 21.3543 22.8125 21.146 22.6041L16.4585 17.9166C14.896 19.0625 13.021 19.7916 10.9377 19.7916C6.04183 19.7916 2.0835 15.8333 2.0835 10.9375C2.0835 6.04165 6.04183 2.08331 10.9377 2.08331C15.8335 2.08331 19.7918 6.04165 19.7918 10.9375C19.7918 13.0208 19.0627 15 17.9168 16.4583ZM10.9377 4.16665C7.18766 4.16665 4.16683 7.18748 4.16683 10.9375C4.16683 14.6875 7.18766 17.7083 10.9377 17.7083C12.8127 17.7083 14.4793 16.9791 15.7293 15.7291C16.9793 14.4791 17.7085 12.8125 17.7085 10.9375C17.7085 7.18748 14.6877 4.16665 10.9377 4.16665Z"
+                  fill="white"
+                />
+              </mask>
+              <g mask="url(#mask0_794_3323)">
+                <rect width="25" height="25" fill="#1F2855" />
+              </g>
+            </svg>
+          </span>
+          <input
+            class="
+              block
+              bg-white
+              w-full
+              border-0
+              rounded-md
+              py-2
+              pl-9
+              pr-3
+              focus:outline-none focus:border-0 focus:ring-0
+              sm:text-sm
+            "
+            type="text"
+            name="search"
           />
-          <mask
-            id="mask0_794_3323"
-            style="mask-type: alpha"
-            maskUnits="userSpaceOnUse"
-            x="2"
-            y="2"
-            width="21"
-            height="21"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M17.9168 16.4583L22.6043 21.1458C23.021 21.5625 23.021 22.1875 22.6043 22.6041C22.396 22.8125 22.0835 22.9166 21.8752 22.9166C21.6668 22.9166 21.3543 22.8125 21.146 22.6041L16.4585 17.9166C14.896 19.0625 13.021 19.7916 10.9377 19.7916C6.04183 19.7916 2.0835 15.8333 2.0835 10.9375C2.0835 6.04165 6.04183 2.08331 10.9377 2.08331C15.8335 2.08331 19.7918 6.04165 19.7918 10.9375C19.7918 13.0208 19.0627 15 17.9168 16.4583ZM10.9377 4.16665C7.18766 4.16665 4.16683 7.18748 4.16683 10.9375C4.16683 14.6875 7.18766 17.7083 10.9377 17.7083C12.8127 17.7083 14.4793 16.9791 15.7293 15.7291C16.9793 14.4791 17.7085 12.8125 17.7085 10.9375C17.7085 7.18748 14.6877 4.16665 10.9377 4.16665Z"
-              fill="white"
-            />
-          </mask>
-          <g mask="url(#mask0_794_3323)">
-            <rect width="25" height="25" fill="#1F2855" />
-          </g>
-        </svg>
-        <input type="text" class="flex rounded-lg focus:border-0" />
+        </label>
       </div>
 
       <div class="flex items-center md:order-2">
@@ -113,10 +133,6 @@
             </svg>
           </div>
         </div>
-        <div class="mx-5 text-sc-100">
-          John Doe
-          <span class="flex text-cb-100 text-sm">Admin</span>
-        </div>
 
         <button
           type="button"
@@ -127,19 +143,36 @@
             bg-gray-800
             rounded-full
             md:mr-0
-            focus:ring-4 focus:ring-gray-300
-            dark:focus:ring-gray-600
+            focus:ring-0
           "
           id="user-menu-button"
           aria-expanded="false"
           data-dropdown-toggle="user-dropdown"
           data-dropdown-placement="bottom"
         >
-          <img
-            class="w-8 h-8 rounded-full"
-            src="../assets/images/Imageuser.png"
-            alt=""
-          />
+          <div class="mx-5 text-sc-100">
+            John Doe
+            <span class="flex text-cb-100 text-sm">Admin</span>
+          </div>
+          <div class="relative">
+            <img
+              class="w-8 h-8 rounded-full"
+              src="../assets/images/Imageuser.png"
+              alt=""
+            />
+            <div class="absolute top-5 -right-0.5">
+              <svg
+                width="11"
+                height="12"
+                viewBox="0 0 11 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="5.5" cy="6" r="5.5" fill="white" />
+                <circle cx="5.49986" cy="5.99998" r="3.92857" fill="#28C76F" />
+              </svg>
+            </div>
+          </div>
         </button>
       </div>
     </div>

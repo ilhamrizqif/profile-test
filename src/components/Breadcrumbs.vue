@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex ml-10" aria-label="Breadcrumb">
+  <nav class="flex ml-10 mt-2" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-3">
       <li class="inline-flex items-center">
         <a href="#" class="items-center text-xl font-medium text-sc-100">

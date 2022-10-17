@@ -346,17 +346,18 @@
                 </div>
                 <div>
                   <label>Organization<span class="text-rc">*</span></label>
-                  <select
+                  <Multiselect
+                    v-model="organization"
+                    mode="tags"
+                    :options="organizationOption"
+                    :search="true"
                     class="
                       w-full
                       rounded-lg
                       bg-themeColor-white
                       border-2 border-sc-40
-                      p-2
                     "
-                  >
-                    <option selected></option>
-                  </select>
+                  />
                 </div>
                 <div>
                   <label
@@ -431,6 +432,12 @@ export default {
       options: ["Option 1", "Option 2", "Option 3"],
       domain: [],
       domainOptions: ["Option 1", "Option 2", "Option 3"],
+      organization: [],
+      organizationOption: [
+        "organization 1",
+        "organization 2",
+        "organization 3",
+      ],
     };
   },
 };
