@@ -18,6 +18,7 @@ module.exports = {
       },
       cb:{
         100:'#457B9D',
+        60:'#8FAFC4',
         40:'#8FAFC4',
         20:'#DAE5EB'
       },

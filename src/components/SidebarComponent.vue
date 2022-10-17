@@ -122,6 +122,8 @@
                 items-center
                 p-2
                 w-full
+                bg-cb-20
+                shadow-lg
                 font-normal
                 text-gray-900
                 rounded-lg
