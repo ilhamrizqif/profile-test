@@ -22,7 +22,7 @@ module.exports = {
         20:'#DAE5EB'
       },
       sc:{
-        100:'#DAE5EB',
+        100:'#1F2855',
         40:'#A6A9BC'
       },
       vg:{

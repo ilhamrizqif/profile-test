@@ -1,85 +1,136 @@
 <template>
-  <nav class="flex" aria-label="Breadcrumb">
+  <nav class="flex ml-10" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-3">
       <li class="inline-flex items-center">
-        <a
-          href="#"
-          class="
-            inline-flex
-            items-center
-            text-sm
-            font-medium
-            text-gray-700
-            hover:text-gray-900
-            dark:text-gray-400 dark:hover:text-white
-          "
-        >
-          <svg
-            class="w-4 h-4 mr-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
-            ></path>
-          </svg>
-          Home
+        <a href="#" class="items-center text-xl font-medium text-sc-100">
+          Course
         </a>
       </li>
+      <svg
+        width="1"
+        height="27"
+        viewBox="0 0 1 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0.5 26.5V0.5" stroke="#EFEFEF" stroke-linecap="square" />
+      </svg>
+
       <li>
         <div class="flex items-center">
           <svg
-            class="w-6 h-6 text-gray-400"
-            fill="currentColor"
-            viewBox="0 0 20 20"
+            width="14"
+            height="15"
+            viewBox="0 0 14 15"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               fill-rule="evenodd"
-              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
               clip-rule="evenodd"
-            ></path>
+              d="M12.5998 5.29311L7.34984 1.21441C7.1165 1.03961 6.82484 1.03961 6.64984 1.21441L1.39984 5.29311C1.22484 5.40965 1.1665 5.58445 1.1665 5.75925V12.1686C1.1665 13.1592 1.92484 13.9166 2.9165 13.9166H11.0832C12.0748 13.9166 12.8332 13.1592 12.8332 12.1686V5.75925C12.8332 5.58445 12.7748 5.40965 12.5998 5.29311ZM8.1665 8.08993V12.7513H5.83317V8.08993H8.1665ZM11.0832 12.7513C11.4332 12.7513 11.6665 12.5182 11.6665 12.1686V6.05058L6.99984 2.43802L2.33317 6.05058V12.1686C2.33317 12.5182 2.5665 12.7513 2.9165 12.7513H4.6665V7.50726C4.6665 7.15766 4.89984 6.92459 5.24984 6.92459H8.74984C9.09984 6.92459 9.33317 7.15766 9.33317 7.50726V12.7513H11.0832Z"
+              fill="#457B9D"
+            />
+            <mask
+              id="mask0_170_5072"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="1"
+              y="1"
+              width="12"
+              height="13"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.5998 5.29311L7.34984 1.21441C7.1165 1.03961 6.82484 1.03961 6.64984 1.21441L1.39984 5.29311C1.22484 5.40965 1.1665 5.58445 1.1665 5.75925V12.1686C1.1665 13.1592 1.92484 13.9166 2.9165 13.9166H11.0832C12.0748 13.9166 12.8332 13.1592 12.8332 12.1686V5.75925C12.8332 5.58445 12.7748 5.40965 12.5998 5.29311ZM8.1665 8.08993V12.7513H5.83317V8.08993H8.1665ZM11.0832 12.7513C11.4332 12.7513 11.6665 12.5182 11.6665 12.1686V6.05058L6.99984 2.43802L2.33317 6.05058V12.1686C2.33317 12.5182 2.5665 12.7513 2.9165 12.7513H4.6665V7.50726C4.6665 7.15766 4.89984 6.92459 5.24984 6.92459H8.74984C9.09984 6.92459 9.33317 7.15766 9.33317 7.50726V12.7513H11.0832Z"
+                fill="white"
+              />
+            </mask>
+            <g mask="url(#mask0_170_5072)">
+              <rect y="0.5" width="14" height="14" fill="#D2000F" />
+            </g>
           </svg>
+
+          <div class="ml-2">
+            <svg
+              width="14"
+              height="15"
+              viewBox="0 0 14 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.15817 7.90835L5.65817 11.4084C5.5415 11.525 5.42484 11.5834 5.24984 11.5834C5.07484 11.5834 4.95817 11.525 4.8415 11.4084C4.60817 11.175 4.60817 10.825 4.8415 10.5917L7.93317 7.50002L4.8415 4.40835C4.60817 4.17502 4.60817 3.82502 4.8415 3.59169C5.07484 3.35835 5.42484 3.35835 5.65817 3.59169L9.15817 7.09169C9.3915 7.32502 9.3915 7.67502 9.15817 7.90835Z"
+                fill="#457B9D"
+              />
+              <mask
+                id="mask0_170_5075"
+                style="mask-type: alpha"
+                maskUnits="userSpaceOnUse"
+                x="4"
+                y="3"
+                width="6"
+                height="9"
+              >
+                <path
+                  d="M9.15817 7.90835L5.65817 11.4084C5.5415 11.525 5.42484 11.5834 5.24984 11.5834C5.07484 11.5834 4.95817 11.525 4.8415 11.4084C4.60817 11.175 4.60817 10.825 4.8415 10.5917L7.93317 7.50002L4.8415 4.40835C4.60817 4.17502 4.60817 3.82502 4.8415 3.59169C5.07484 3.35835 5.42484 3.35835 5.65817 3.59169L9.15817 7.09169C9.3915 7.32502 9.3915 7.67502 9.15817 7.90835Z"
+                  fill="white"
+                />
+              </mask>
+              <g mask="url(#mask0_170_5075)">
+                <rect y="0.5" width="14" height="14" fill="#457B9D" />
+              </g>
+            </svg>
+          </div>
+
           <a
             href="#"
             class="
               ml-1
-              text-sm
-              font-medium
-              text-gray-700
+              text-cb-100
               hover:text-gray-900
               md:ml-2
               dark:text-gray-400 dark:hover:text-white
             "
-            >Projects</a
+            >Content</a
           >
         </div>
       </li>
       <li aria-current="page">
         <div class="flex items-center">
           <svg
-            class="w-6 h-6 text-gray-400"
-            fill="currentColor"
-            viewBox="0 0 20 20"
+            width="14"
+            height="15"
+            viewBox="0 0 14 15"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-              clip-rule="evenodd"
-            ></path>
+              d="M9.15817 7.90835L5.65817 11.4084C5.5415 11.525 5.42484 11.5834 5.24984 11.5834C5.07484 11.5834 4.95817 11.525 4.8415 11.4084C4.60817 11.175 4.60817 10.825 4.8415 10.5917L7.93317 7.50002L4.8415 4.40835C4.60817 4.17502 4.60817 3.82502 4.8415 3.59169C5.07484 3.35835 5.42484 3.35835 5.65817 3.59169L9.15817 7.09169C9.3915 7.32502 9.3915 7.67502 9.15817 7.90835Z"
+              fill="#457B9D"
+            />
+            <mask
+              id="mask0_170_5075"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="4"
+              y="3"
+              width="6"
+              height="9"
+            >
+              <path
+                d="M9.15817 7.90835L5.65817 11.4084C5.5415 11.525 5.42484 11.5834 5.24984 11.5834C5.07484 11.5834 4.95817 11.525 4.8415 11.4084C4.60817 11.175 4.60817 10.825 4.8415 10.5917L7.93317 7.50002L4.8415 4.40835C4.60817 4.17502 4.60817 3.82502 4.8415 3.59169C5.07484 3.35835 5.42484 3.35835 5.65817 3.59169L9.15817 7.09169C9.3915 7.32502 9.3915 7.67502 9.15817 7.90835Z"
+                fill="white"
+              />
+            </mask>
+            <g mask="url(#mask0_170_5075)">
+              <rect y="0.5" width="14" height="14" fill="#457B9D" />
+            </g>
           </svg>
-          <span
-            class="
-              ml-1
-              text-sm
-              font-medium
-              text-gray-500
-              md:ml-2
-              dark:text-gray-400
-            "
-            >Flowbite</span
+
+          <span class="ml-1 text-cb-100 md:ml-2 dark:text-gray-400"
+            >Course</span
           >
         </div>
       </li>

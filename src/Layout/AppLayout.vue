@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 import SidebarComponent from "../components/SidebarComponent.vue";
 import NavbarComponent from "../components/NavbarComponent.vue";
 import AddCourse from "../views/Course/AddCourse.vue";
+import Breadcrumb from "../components/Breadcrumbs.vue";
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import AddCourse from "../views/Course/AddCourse.vue";
     <div><SidebarComponent /></div>
     <div class="w-full">
       <NavbarComponent />
-
+      <Breadcrumb />
       <AddCourse class="flex-col" />
     </div>
   </div>

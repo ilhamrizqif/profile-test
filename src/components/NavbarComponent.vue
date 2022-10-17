@@ -63,7 +63,7 @@
       </div>
 
       <div class="flex items-center md:order-2">
-        <div class="mr-3">
+        <div class="mr-3 relative">
           <svg
             width="20"
             height="21"
@@ -97,7 +97,27 @@
               <rect y="0.5" width="20" height="20" fill="#1F2855" />
             </g>
           </svg>
+          <div class="absolute -top-2 -right-2">
+            <svg
+              width="18"
+              height="19"
+              viewBox="0 0 18 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="9" cy="9.5" r="9" fill="#D2000F" />
+              <path
+                d="M4.83573 11.592V10.512L8.97573 5.1H10.6437L6.56373 10.512L5.78373 10.272H12.4437V11.592H4.83573ZM9.44373 13.5V11.592L9.49173 10.272V8.58H10.9557V13.5H9.44373Z"
+                fill="white"
+              />
+            </svg>
+          </div>
         </div>
+        <div class="mx-5 text-sc-100">
+          John Doe
+          <span class="flex text-cb-100 text-sm">Admin</span>
+        </div>
+
         <button
           type="button"
           class="
@@ -128,7 +148,6 @@
 </template>
 
 <script>
-import Breadcrumb from "./Breadcrumbs.vue";
 export default {};
 </script>
 
